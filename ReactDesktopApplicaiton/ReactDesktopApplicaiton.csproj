@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="build\asset-manifest.json" />
+    <None Remove="build\favicon.ico" />
+    <None Remove="build\index.html" />
+    <None Remove="build\logo192.png" />
+    <None Remove="build\logo512.png" />
+    <None Remove="build\manifest.json" />
+    <None Remove="build\precache-manifest.92de1e26d6a89c54d89160fef1da6704.js" />
+    <None Remove="build\robots.txt" />
+    <None Remove="build\service-worker.js" />
+    <None Remove="build\static\css\main.a05ebf7d.chunk.css" />
+    <None Remove="build\static\css\main.a05ebf7d.chunk.css.map" />
+    <None Remove="build\static\js\2.3bfccd4d.chunk.js" />
+    <None Remove="build\static\js\2.3bfccd4d.chunk.js.LICENSE.txt" />
+    <None Remove="build\static\js\2.3bfccd4d.chunk.js.map" />
+    <None Remove="build\static\js\main.73c46e9c.chunk.js" />
+    <None Remove="build\static\js\main.73c46e9c.chunk.js.map" />
+    <None Remove="build\static\js\runtime-main.24e7622b.js" />
+    <None Remove="build\static\js\runtime-main.24e7622b.js.map" />
+    <None Remove="build\static\media\home.28606014.svg" />
+    <None Remove="build\static\media\settings.23bff062.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="build\asset-manifest.json" />
+    <EmbeddedResource Include="build\favicon.ico" />
+    <EmbeddedResource Include="build\index.html" />
+    <EmbeddedResource Include="build\logo192.png" />
+    <EmbeddedResource Include="build\logo512.png" />
+    <EmbeddedResource Include="build\manifest.json" />
+    <EmbeddedResource Include="build\precache-manifest.92de1e26d6a89c54d89160fef1da6704.js" />
+    <EmbeddedResource Include="build\robots.txt" />
+    <EmbeddedResource Include="build\service-worker.js" />
+    <EmbeddedResource Include="build\static\css\main.a05ebf7d.chunk.css" />
+    <EmbeddedResource Include="build\static\css\main.a05ebf7d.chunk.css.map" />
+    <EmbeddedResource Include="build\static\js\2.3bfccd4d.chunk.js" />
+    <EmbeddedResource Include="build\static\js\2.3bfccd4d.chunk.js.LICENSE.txt" />
+    <EmbeddedResource Include="build\static\js\2.3bfccd4d.chunk.js.map" />
+    <EmbeddedResource Include="build\static\js\main.73c46e9c.chunk.js" />
+    <EmbeddedResource Include="build\static\js\main.73c46e9c.chunk.js.map" />
+    <EmbeddedResource Include="build\static\js\runtime-main.24e7622b.js" />
+    <EmbeddedResource Include="build\static\js\runtime-main.24e7622b.js.map" />
+    <EmbeddedResource Include="build\static\media\home.28606014.svg" />
+    <EmbeddedResource Include="build\static\media\settings.23bff062.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetDimension.NanUI" Version="0.7.77.2" />
+    <PackageReference Include="NetDimension.NanUI.AssemblyResourceHandler" Version="0.7.2" />
+    <PackageReference Include="NetDimension.NanUI.Runtime" Version="77.1.18.2" />
+  </ItemGroup>
+
+</Project>
